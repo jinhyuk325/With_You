@@ -15,10 +15,10 @@ public class Member {
     //생성(new) 할때 자동으로 실행되는 메소드
     //생성자 메소드
     Member (String event, String day,String dday){
-
-        this.event =event;
-        this.day=day;
         this.dday=dday;
+        this.event =event+"/"+dday;
+        this.day=day;
+
 
     }
 
