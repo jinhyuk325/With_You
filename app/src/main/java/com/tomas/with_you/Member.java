@@ -16,7 +16,7 @@ public class Member {
     //생성자 메소드
     Member (String event, String day,String dday){
         this.dday=dday;
-        this.event =event+"/"+dday;
+        this.event =event;
         this.day=day;
 
 
